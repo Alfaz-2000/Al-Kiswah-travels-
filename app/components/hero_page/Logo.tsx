@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div className='h-[40vh] w-full absolute flex justify-center'>
-      <div className="">
-        <Image src="/ak-transferent.png" alt='ak-logo' width={700} height={700}/>
-      </div>
-    </div>
-  )
-}
+    <Image
+      src="/ak-transferent.png"
+      alt="Al Kiswah Travels"
+      width={650}
+      height={650}
+    />
+  );
+};
 
-export default Logo
+export default Logo;

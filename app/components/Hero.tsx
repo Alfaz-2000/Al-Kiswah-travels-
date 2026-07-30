@@ -1,24 +1,33 @@
 import React from 'react'
 import Logo from './hero_page/Logo'
 import Social from './hero_page/Social'
+import Videos from './hero_page/Videos'
+
+
+
+
+
 
 
 const Hero = () => {
     return (
-        <div className='min-h-screen'>
-            <div className=" flex-col justify-center items-center">
-                <div className="">
-                    <Logo />
-                </div>
-                <div className="">
-                    <video loop autoPlay muted src="/hero.mp4" className='min-h-screen'></video>
-                {/* <div className="absolute top-23 h-[98.5vh] inset-0 bg-black/40"></div> */}
-                </div>
-                <div className=" text-lg ">
-                    <Social />
-                </div>
-            </div>
+         <section className="relative h-screen overflow-hidden">
+
+            <Videos/>
+
+      <div className="relative z-10 flex flex-col justify-between h-full">
+
+        <div className="flex justify-center pt-24">
+          <Logo />
         </div>
+
+        <div className="flex justify-center pb-10">
+          <Social />
+        </div>
+
+      </div>
+
+    </section>
     )
 }
 

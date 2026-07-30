@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Social = () => {
     return (
-        <div className='h-[30vh] w-full absolute bottom-[-200] '>
+        <div className='min-w-screen min-h-screen '>
 
 
             <div className="flex flex-wrap items-center justify-center gap-6 mt-6 text-white">
