@@ -31,11 +31,9 @@ const Visa = () => {
 ];
     return (
         <div className="min-h-[70vh] ">
-            
-
-            <div className="text-[#dcb657] text-4xl font-bold text-center p-5">We help you with Visa</div>
+            <div className="text-[#dcb657] text-xl md:text-4xl font-bold text-center p-5">We help you with Visa</div>
         <div className='flex flex-col justify-center items-center'>
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 p-2 md:gap-5">
               {visas.map((item)=>(
                 <span key={item} className='bg-[#10384d] text-white rounded-full text-center text-lg p-2'>{item}</span>
               ))}  

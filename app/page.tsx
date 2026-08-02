@@ -5,6 +5,7 @@ import Visa from "./components/Visa";
 import Ticket from "./components/Ticket";
 import Partners from "./components/Partners";
 import Hero from "./components/Hero";
+import Airlines from "./components/Airlines";
 
 export default function Home() {
   return (
@@ -17,9 +18,11 @@ export default function Home() {
 
 <Visa/>
 
-<Ticket/>
+{/* <Ticket/> */}
 
+<Airlines/>
 <Partners/>
+
 
 
 
