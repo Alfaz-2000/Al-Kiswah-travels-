@@ -4,10 +4,10 @@ import { MdEmail } from "react-icons/md";
 
 const Social = () => {
     return (
-        <div className='min-w-screen min-h-screen '>
+        <div className=' absolute bottom-0  '>
 
 
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 text-white">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 mt-6 text-white">
                 <a
                     href="tel:+917090983299"
                     className="flex items-center gap-2 hover:text-[#dcb657] transition bg-[#09283a] rounded-full px-4 py-2"

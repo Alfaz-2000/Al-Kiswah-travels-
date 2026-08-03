@@ -36,3 +36,21 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # Al-Kiswah-travels-
 This is an travels agency website built with Next.js, Tailwind CSS & GSAP featuring premium animations, popular destinations, flight API integration, travel packages, and WhatsApp inquiry support.
+
+
+const Navbar = () => {
+  return (
+        <nav className='flex justify-around bg-[#09283a] p-6 '>
+            <div className="logo"><Image src="/aklogo.png" alt="al-kiswah-logo" width={36} height={36} /></div>
+            <ul className='flex gap-4 text-[#dcb657]'>
+                <Link href={"/"}><li>Home</li></Link>
+                <Link href={"/service"}><li>Service</li></Link>
+                <Link href={"/about"}><li>About Us</li></Link>
+                <Link href={"/contact"}><li>Contact Us</li></Link>
+            </ul>
+            <button className='flex gap-2 items-center'> <Image src="/what'sapp-icon.svg" alt="what'sapp-image" width={24} height={24} /> <span className='text-[#28cc62]'> what'sapp </span></button>
+        </nav>
+  )
+}
+
+export default Navbar

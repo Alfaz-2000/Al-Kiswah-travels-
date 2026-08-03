@@ -12,7 +12,7 @@ const Cards = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="">
                     <div className="img">
-                        <Image className='rounded-full' src="/dubai.png" alt='dubai-image' width={350} height={350} loading="eager" />
+                        <Image className='rounded-full' src="/dubai1.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
@@ -24,7 +24,7 @@ const Cards = () => {
                 </div>
                 <div className="">
                     <div className="img">
-                        <Image className='rounded-full' src="/dubai.png" alt='dubai-image' width={350} height={350} loading="eager" />
+                        <Image className='rounded-full' src="/thai.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
@@ -36,7 +36,7 @@ const Cards = () => {
                 </div>
                 <div className="">
                     <div className="img">
-                        <Image className='rounded-full' src="/dubai.png" alt='dubai-image' width={350} height={350} loading="eager" />
+                        <Image className='rounded-full' src="/viet.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
@@ -48,7 +48,7 @@ const Cards = () => {
                 </div>
                 <div className="">
                     <div className="img">
-                        <Image className='rounded-full' src="/dubai.png" alt='dubai-image' width={350} height={350} loading="eager" />
+                        <Image className='rounded-full' src="/kerala.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
@@ -60,7 +60,7 @@ const Cards = () => {
                 </div>
                 <div className="">
                     <div className="img">
-                        <Image className='rounded-full' src="/dubai.png" alt='dubai-image' width={350} height={350} loading="eager" />
+                        <Image className='rounded-full' src="/kash.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
@@ -72,7 +72,7 @@ const Cards = () => {
                 </div>
                 <div className="">
                     <div className="img">
-                        <Image className='rounded-full' src="/dubai.png" alt='dubai-image' width={350} height={350} loading="eager" />
+                        <Image className='rounded-full' src="/raj.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">

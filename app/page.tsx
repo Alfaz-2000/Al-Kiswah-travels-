@@ -9,25 +9,32 @@ import Airlines from "./components/Airlines";
 
 export default function Home() {
   return (
-<>
+    <>
 
-<Hero/>
+      <div className="">
+        <Hero />
+      </div>
 
-     
-      <Cards />
+      <div className=" mt-2">
+        <Cards />
+      </div>
+      <div className=" mt-2">
+        <Visa />
+      </div>
 
-<Visa/>
+      <div className=" mt-2">
+        <Airlines />
+      </div>
 
-{/* <Ticket/> */}
-
-<Airlines/>
-<Partners/>
-
-
-
+      <div className=" mt-2">
+        <Partners />
+      </div>
 
 
-    
+
+
+
+
     </>
 
   );
