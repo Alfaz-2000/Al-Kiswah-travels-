@@ -11,18 +11,18 @@ export default function Home() {
   return (
     <>
 
-      <div className="">
+      <div className="" id="home">
         <Hero />
       </div>
 
-      <div className=" mt-2">
+      <div className=" mt-2" id="Services">
         <Cards />
       </div>
-      <div className=" mt-2">
+      <div className=" mt-2" id="Visa">
         <Visa />
       </div>
 
-      <div className=" mt-2">
+      <div className=" mt-2" id="Flights">
         <Airlines />
       </div>
 

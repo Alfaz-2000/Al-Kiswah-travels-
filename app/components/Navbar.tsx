@@ -26,9 +26,9 @@ const Navbar = () => {
     {open &&(
         <div className=" flex flex-col p-4 space-y-5 items-center min-h-screen bg-[#09283a] text-[#dcb657] font-bold sticky top-0 z-9999">
         <a onClick={handleClick} href="#Home">Home</a>
+        <a onClick={handleClick} href="#Services">Services</a>
         <a onClick={handleClick} href="#Visa">Visa</a>
         <a onClick={handleClick} href="#Flights">Flights</a>
-        <a onClick={handleClick} href="#Services">Services</a>
         {/* <a onClick={handleClick} href='/Alfaz_resume.pdf' className='bg-[#34C759] rounded-full px-5 py-2'>Download Resume</a> */}
         <a  href="https://wa.me/917090983299" target="_blank" rel="noopener noreferrer" className='flex gap-2 items-center'> <Image src="/what'sapp-icon.svg" alt="what'sapp-image" width={24} height={24} /> <span className='text-[#28cc62]'> what'sapp </span></a>
       </div>
@@ -39,9 +39,9 @@ const Navbar = () => {
 
       <div className=" flex gap-5 text-white ">
         <a onClick={handleClick} href="#Home">Home</a>
+        <a onClick={handleClick} href="#Services">Services</a>
         <a onClick={handleClick} href="#Visa">Visa</a>
         <a onClick={handleClick} href="#Flights">Flights</a>
-        <a onClick={handleClick} href="#Services">Services</a>
       </div>
       <div className="">
         {/* <a onClick={handleClick} href='/Alfaz_resume.pdf' className='border border-[#34C759] rounded-full px-5 py-2'>Download Resume</a> */}

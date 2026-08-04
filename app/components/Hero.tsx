@@ -42,7 +42,7 @@ const Hero = () => {
       </video>
       </div>
       <div className="flex justify-center">
-        <Image className=' absolute top-30 md:top-50' src="/ak-transferent.png" alt='aklogo' width={500} height={500}/>
+        <Image className=' absolute top-30 md:top-50 sm:[250px] h-auto' src="/ak-transferent.png" alt='aklogo' width={500} height={500}/>
       </div>
 
         <div className="flex justify-center">
