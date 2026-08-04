@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <div className="logo px-5"><Image src="/aklogo.png" alt="al-kiswah-logo" width={50} height={50} /></div>
         <div className="text-2xl px-2">
-            <a  href="https://wa.me/917090983299" target="_blank" rel="noopener noreferrer" onClick={()=>setopen(!open)}><GiHamburgerMenu /></a>
+            <button onClick={()=>setopen(!open)}><GiHamburgerMenu /></button>
         </div>
     </nav>
     {open &&(
