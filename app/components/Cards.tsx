@@ -17,7 +17,7 @@ const Cards = () => {
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
                             <h2 className=' font-bold text-xl md:text-4xl'>DUBAI</h2>
-                            <p className=' text-base md:text-lg text-center'>One of the most visted tourist place in world</p>
+                            <p className=' text-base md:text-lg text-center'>Experience world-class shopping, iconic landmarks, luxury, and unforgettable desert adventures.</p>
 
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const Cards = () => {
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
                             <h2 className=' font-bold text-xl md:text-4xl'>Thailand</h2>
-                            <p className=' text-base md:text-lg text-center'>One of the most visted tourist place in world</p>
+                            <p className=' text-base md:text-lg text-center'>Discover beautiful beaches, vibrant nightlife, rich culture, and delicious local cuisine.</p>
 
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const Cards = () => {
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
                             <h2 className=' font-bold text-xl md:text-4xl'>Vietnam</h2>
-                            <p className=' text-base md:text-lg text-center'>One of the most visted tourist place in world</p>
+                            <p className=' text-base md:text-lg text-center'>Explore breathtaking landscapes, historic cities, scenic cruises, and authentic street food.</p>
 
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Cards = () => {
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
                             <h2 className=' font-bold text-xl md:text-4xl'>Kerala</h2>
-                            <p className=' text-base md:text-lg text-center'>One of the most visted tourist place in world</p>
+                            <p className=' text-base md:text-lg text-center'>Relax in serene backwaters, lush greenery, hill stations, and peaceful beaches.</p>
 
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const Cards = () => {
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
                             <h2 className=' font-bold text-xl md:text-4xl'>Kashmir</h2>
-                            <p className=' text-base md:text-lg text-center'>One of the most visted tourist place in world</p>
+                            <p className=' text-base md:text-lg text-center'>Experience snow-capped mountains, tranquil valleys, pristine lakes, and unforgettable natural beauty.</p>
 
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Cards = () => {
                     <div className="info">
                         <div className="sub-info flex flex-col gap-4 p-5 justify-center items-center">
                             <h2 className=' font-bold text-xl md:text-4xl'>Rajasthan</h2>
-                            <p className=' text-base md:text-lg text-center'>One of the most visted tourist place in world</p>
+                            <p className=' text-base md:text-lg text-center'>Discover majestic forts, royal palaces, colorful culture, and timeless desert landscapes.</p>
 
                         </div>
                     </div>
