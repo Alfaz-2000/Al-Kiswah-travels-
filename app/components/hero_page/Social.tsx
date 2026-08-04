@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Social = () => {
     return (
-        <div className=' absolute bottom-0  '>
+        <div className=' absolute bottom-0 sm:bottom-50  '>
 
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 mt-6 text-white">

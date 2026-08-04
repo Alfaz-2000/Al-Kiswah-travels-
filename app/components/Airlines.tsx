@@ -3,50 +3,60 @@ import React from 'react'
 const Airlines = () => {
     const airlinesList =
         [
-            {
-                route: "Mangalore → Jeddah",
-                airline: "Saudia",
-                logo: "/saudi.png",
-            },
-            {
-                route: "Jeddah → Mangalore",
-                airline: "Air India Express",
-                logo: "/airindiaexp.png",
-            },
-            {
-                route: "Mangalore → Doha",
-                airline: "Qatar Airways",
-                logo: "/qatar.png",
-            },
-            {
-                route: "Mangalore → Muscat",
-                airline: "Air India Express",
-                logo: "/airindiaexp.png",
-            },
-            {
-                route: "Mangalore → Dammam",
-                airline: "IndiGo",
-                logo: "/IndiGo-Logo.jpg",
-            },
-            {
-                route: "Mangalore → Dubai",
-                airline: "Emirates",
-                logo: "/em.png",
-            },
-            {
-                route: "Mangalore → Abu Dhabi",
-                airline: "Etihad Airways",
-                logo: "/eithad.png",
-            },
-            {
-                route: "Abu Dhabi → Mangalore",
-                airline: "Etihad Airways",
-                logo: "/eithad.png",
-            },
-        ];
+         
+        {
+            route: "Mangalore → Jeddah",
+            airline: "Saudia",
+            logo: "/saudi.png",
+            duration: "Avg. Time: 5h 30m",
+        },
+        {
+            route: "Jeddah → Mangalore",
+            airline: "Air India Express",
+            logo: "/airindiaexp.png",
+            duration: "Avg. Time: 5h 30m",
+        },
+        {
+            route: "Mangalore → Doha",
+            airline: "Qatar Airways",
+            logo: "/qatar.png",
+            duration: "Avg. Time: 4h 15m",
+        },
+        {
+            route: "Mangalore → Muscat",
+            airline: "Air India Express",
+            logo: "/airindiaexp.png",
+            duration: "Avg. Time: 3h 45m",
+        },
+        {
+            route: "Mangalore → Dammam",
+            airline: "IndiGo",
+            logo: "/IndiGo-Logo.jpg",
+            duration: "Avg. Time: 4h 45m",
+        },
+        {
+            route: "Mangalore → Dubai",
+            airline: "Emirates",
+            logo: "/em.png",
+            duration: "Avg. Time: 3h 50m",
+        },
+        {
+            route: "Mangalore → Abu Dhabi",
+            airline: "Etihad Airways",
+            logo: "/eithad.png",
+            duration: "Avg. Time: 3h 45m",
+        },
+        {
+            route: "Abu Dhabi → Mangalore",
+            airline: "Etihad Airways",
+            logo: "/eithad.png",
+            duration: "Avg. Time: 3h 45m",
+        },
+
+    ];
 
     return (
-        <div className='min-h-[50vh] text-white'>
+        <div className='min-h-fit text-white'>
             <div className="">
                 <div className="flex justify-center items-center text-[#dcb657]">
                     <h1 className=' text-xl md:text-4xl font-bold'>Best Flight Deal's</h1>
@@ -64,7 +74,7 @@ const Airlines = () => {
                                 <div className="airLineName">{items.airline}</div>
                             </div>
                             <div className="flex gap-4 px-5 pt-2">
-                                <div className="duration">03h 45m </div>
+                                <div className="duration">{items.duration} </div>
                                 <div className="type">Non-Stop</div>
                             </div>
                         </div>
