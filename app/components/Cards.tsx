@@ -10,7 +10,7 @@ const Cards = () => {
                 <h1 className='text-center font-bold text-xl md:text-5xl text-[#dcb657] {fontH1.className}'>We provide Tourism for Places</h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="">
+                <div className=" flex flex-col  items-center">
                     <div className="img">
                         <Image className='rounded-full' src="/dubai1.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
@@ -22,7 +22,7 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="flex flex-col  items-center">
                     <div className="img">
                         <Image className='rounded-full' src="/thai.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
@@ -34,7 +34,7 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="flex flex-col  items-center">
                     <div className="img">
                         <Image className='rounded-full' src="/viet.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
@@ -46,7 +46,7 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="flex flex-col  items-center">
                     <div className="img">
                         <Image className='rounded-full' src="/kerala.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
@@ -58,7 +58,7 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="flex flex-col  items-center">
                     <div className="img">
                         <Image className='rounded-full' src="/kash.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>
@@ -70,7 +70,7 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="flex flex-col  items-center">
                     <div className="img">
                         <Image className='rounded-full' src="/raj.png" alt='dubai-image' width={350} height={350} loading="eager" />
                     </div>

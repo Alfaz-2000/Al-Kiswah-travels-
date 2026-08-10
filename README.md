@@ -1,56 +1,215 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Al-Kiswah Travels
 
-## Getting Started
+A modern and responsive travel agency website developed for **Al-Kiswah Travels** using Next.js, React, TypeScript, Tailwind CSS, and GSAP.
 
-First, run the development server:
+The website is designed to showcase travel destinations, visa services, flight deals, travel services, and provide customers with convenient ways to contact the agency.
+
+## 🌐 Live Website
+
+[Visit Al-Kiswah Travels](https://al-kiswah-travels.vercel.app/)
+
+---
+
+## 📸 Project Preview
+
+### Homepage
+
+![Al-Kiswah Travels Homepage](./public/screenshots/home.png)
+
+### Flight Deals
+
+![Flight Deals](./public/screenshots/Fdeals.png)
+
+### Travel Cards
+
+![Travel Cards](./public/screenshots/Dcards.png)
+
+### Visa Services
+
+![Visa Services](./public/screenshots/visa.png)
+
+### Partners
+
+![Partners](./public/screenshots/partners.png)
+
+### Contact
+
+![Contact](./public/screenshots/contact.png)
+
+---
+
+## 📌 About the Project
+
+Al-Kiswah Travels is a travel agency website built with a focus on modern UI, responsive design, smooth animations, and a simple customer experience.
+
+The website allows visitors to explore popular destinations, view travel services and visa options, browse flight deals, and contact the agency through WhatsApp, email, or phone.
+
+This project was developed as a real-world travel agency website with a focus on usability, responsive design, and modern frontend development.
+
+---
+
+## ✨ Key Highlights
+
+- Modern travel agency landing page
+- Fully responsive design
+- Popular travel destinations
+- Travel and visa services
+- Flight deals section
+- Airline information and flight cards
+- WhatsApp customer inquiry integration
+- Contact section with email and phone support
+- Partner/agency section
+- Smooth UI animations
+- Reusable React components
+- Mobile, tablet, and desktop layouts
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **GSAP**
+- **React Icons**
+
+### Development Tools
+
+- **Git**
+- **GitHub**
+- **Vercel**
+- **VS Code**
+
+---
+
+## 📂 Project Structure
+
+```text
+Al-Kiswah-travels/
+│
+├── app/
+│   ├── about/
+│   ├── contact/
+│   ├── service/
+│   ├── components/
+│   ├── lib/
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── data/
+│   └── flightsdeals.ts
+│
+├── public/
+│   ├── screenshots/
+│   ├── images/
+│   └── logos/
+│
+├── types/
+│   └── flight.ts
+│
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Alfaz-2000/Al-Kiswah-travels-.git
+```
+
+### Navigate to the project
+
+```bash
+cd Al-Kiswah-travels-
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Responsive Design
 
-## Learn More
+The website is optimized for:
 
-To learn more about Next.js, take a look at the following resources:
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The layouts and components adapt to different screen sizes to provide a consistent user experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Development Highlights
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Component-Based Architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Al-Kiswah-travels-
-This is an travels agency website built with Next.js, Tailwind CSS & GSAP featuring premium animations, popular destinations, flight API integration, travel packages, and WhatsApp inquiry support.
+The application is organized into reusable React components to keep the code maintainable and scalable.
 
+### Responsive UI
 
-const Navbar = () => {
-  return (
-        <nav className='flex justify-around bg-[#09283a] p-6 '>
-            <div className="logo"><Image src="/aklogo.png" alt="al-kiswah-logo" width={36} height={36} /></div>
-            <ul className='flex gap-4 text-[#dcb657]'>
-                <Link href={"/"}><li>Home</li></Link>
-                <Link href={"/service"}><li>Service</li></Link>
-                <Link href={"/about"}><li>About Us</li></Link>
-                <Link href={"/contact"}><li>Contact Us</li></Link>
-            </ul>
-            <button className='flex gap-2 items-center'> <Image src="/what'sapp-icon.svg" alt="what'sapp-image" width={24} height={24} /> <span className='text-[#28cc62]'> what'sapp </span></button>
-        </nav>
-  )
-}
+Tailwind CSS is used to create responsive layouts and consistent styling across different devices.
 
-export default Navbar
+### Animations
+
+GSAP is used to create smooth animations and interactive visual effects throughout the website.
+
+### Flight Deals
+
+Flight information is structured into reusable flight cards with airline branding, routes, duration, and flight details.
+
+### Customer Contact
+
+Customers can directly contact the travel agency through WhatsApp, email, and phone.
+
+---
+
+## ☁️ Deployment
+
+The application is deployed using **Vercel**.
+
+**Live Website:**  
+[https://al-kiswah-travels.vercel.app/](https://al-kiswah-travels.vercel.app/)
+
+---
+
+## 👨‍💻 Developer
+
+**Alfaz**
+
+Full-Stack JavaScript Developer
+
+### Technologies
+
+Next.js · React · TypeScript · Tailwind CSS · GSAP
+
+---
+
+## 📄 License
+
+This project was developed for Al-Kiswah Travels.
+
+© 2026 Al-Kiswah Travels. All rights reserved.
