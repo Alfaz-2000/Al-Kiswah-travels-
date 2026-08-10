@@ -14,33 +14,39 @@ The website is designed to showcase travel destinations, visa services, flight d
 
 <table>
   <tr>
-    <td width="50%">
-      <img src="./public/screenshots/home.png" alt="Al-Kiswah Travels Homepage" />
-      <p align="center"><strong>Homepage</strong></p>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/home.png" alt="Al-Kiswah Travels Homepage" />
+      <br />
+      <strong>Homepage</strong>
     </td>
-    <td width="50%">
-      <img src="./public/screenshots/Fdeals.png" alt="Flight Deals" />
-      <p align="center"><strong>Flight Deals</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="./public/screenshots/Dcards.png" alt="Travel Cards" />
-      <p align="center"><strong>Travel Destinations</strong></p>
-    </td>
-    <td width="50%">
-      <img src="./public/screenshots/visa.png" alt="Visa Services" />
-      <p align="center"><strong>Visa Services</strong></p>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/Fdeals.png" alt="Flight Deals" />
+      <br />
+      <strong>Flight Deals</strong>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <img src="./public/screenshots/partners.png" alt="Partners" />
-      <p align="center"><strong>Partners</strong></p>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/Dcards.png" alt="Travel Destinations" />
+      <br />
+      <strong>Travel Destinations</strong>
     </td>
-    <td width="50%">
-      <img src="./public/screenshots/contact.png" alt="Contact" />
-      <p align="center"><strong>Contact</strong></p>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/visa.png" alt="Visa Services" />
+      <br />
+      <strong>Visa Services</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/partners.png" alt="Partners" />
+      <br />
+      <strong>Partners</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/contact.png" alt="Contact" />
+      <br />
+      <strong>Contact</strong>
     </td>
   </tr>
 </table>
