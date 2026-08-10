@@ -15,36 +15,36 @@ The website is designed to showcase travel destinations, visa services, flight d
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/home.png" alt="Al-Kiswah Travels Homepage" />
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshorts/home.png" alt="Al-Kiswah Travels Homepage" />
       <br />
       <strong>Homepage</strong>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/Fdeals.png" alt="Flight Deals" />
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshorts/Fdeals.png" alt="Flight Deals" />
       <br />
       <strong>Flight Deals</strong>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/Dcards.png" alt="Travel Destinations" />
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshorts/Dcards.png" alt="Travel Destinations" />
       <br />
       <strong>Travel Destinations</strong>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/visa.png" alt="Visa Services" />
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshorts/visa.png" alt="Visa Services" />
       <br />
       <strong>Visa Services</strong>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/partners.png" alt="Partners" />
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshorts/partners.png" alt="Partners" />
       <br />
       <strong>Partners</strong>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshots/contact.png" alt="Contact" />
+      <img src="https://raw.githubusercontent.com/Alfaz-2000/Al-Kiswah-travels-/main/public/screenshorts/contact.png" alt="Contact" />
       <br />
       <strong>Contact</strong>
     </td>
