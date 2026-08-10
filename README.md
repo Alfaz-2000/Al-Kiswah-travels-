@@ -12,29 +12,38 @@ The website is designed to showcase travel destinations, visa services, flight d
 
 ## 📸 Project Preview
 
-### Homepage
-
-![Al-Kiswah Travels Homepage](./public/screenshots/home.png)
-
-### Flight Deals
-
-![Flight Deals](./public/screenshots/Fdeals.png)
-
-### Travel Cards
-
-![Travel Cards](./public/screenshots/Dcards.png)
-
-### Visa Services
-
-![Visa Services](./public/screenshots/visa.png)
-
-### Partners
-
-![Partners](./public/screenshots/partners.png)
-
-### Contact
-
-![Contact](./public/screenshots/contact.png)
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./public/screenshots/home.png" alt="Al-Kiswah Travels Homepage" />
+      <p align="center"><strong>Homepage</strong></p>
+    </td>
+    <td width="50%">
+      <img src="./public/screenshots/Fdeals.png" alt="Flight Deals" />
+      <p align="center"><strong>Flight Deals</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./public/screenshots/Dcards.png" alt="Travel Cards" />
+      <p align="center"><strong>Travel Destinations</strong></p>
+    </td>
+    <td width="50%">
+      <img src="./public/screenshots/visa.png" alt="Visa Services" />
+      <p align="center"><strong>Visa Services</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./public/screenshots/partners.png" alt="Partners" />
+      <p align="center"><strong>Partners</strong></p>
+    </td>
+    <td width="50%">
+      <img src="./public/screenshots/contact.png" alt="Contact" />
+      <p align="center"><strong>Contact</strong></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
