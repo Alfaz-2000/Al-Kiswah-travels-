@@ -48,7 +48,7 @@ const Ticket = () => {
     <div className=" ">
 
       <div className="ticketPrice flex flex-col min-h-[250px] gap-5 bg-[#09283a]">
-        <div className="flex justify-center items-center px-5">
+        <div className="flex justify-center items-center px-5 mt-10">
           <h2 className="  font-bold text-xl md:text-4xl text-[#dcb657]">Today's Best Flight Price Deals</h2>
           {/* <span className="text-white">Read more!</span> */}
         </div>

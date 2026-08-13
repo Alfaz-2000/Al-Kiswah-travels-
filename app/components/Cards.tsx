@@ -6,7 +6,7 @@ import { fontH1,fontH2,fontP } from '../lib/fonts'
 const Cards = () => {
     return (
         <div className='min-h-screen bg-[#09283a] text-white flex flex-col justify-center items-center'>
-            <div className="p-10">
+            <div className="p-10 mt-10">
                 <h1 className='text-center font-bold text-xl md:text-5xl text-[#dcb657] {fontH1.className}'>We provide Tourism for Places</h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
