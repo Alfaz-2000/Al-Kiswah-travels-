@@ -58,8 +58,8 @@ const Airlines = () => {
     return (
         <div className='min-h-fit text-white'>
             <div className="">
-                <div className="flex justify-center items-center text-[#dcb657] mt-10">
-                    <h1 className=' text-xl md:text-4xl font-bold'>Best Flight Deal's</h1>
+                <div className="flex justify-center items-center text-[#dcb657]">
+                    <h1 className=' text-xl md:text-4xl font-bold mt-16'>Best Flight Deal's</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-4 justify-center items-center gap-4 p-4 ">
                     {airlinesList.map((items) => (
