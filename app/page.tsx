@@ -12,25 +12,25 @@ export default function Home() {
   return (
     <>
 
-      <div className="" id="home">
+      <div className="" id="Home">
         <Hero />
       </div>
 
-      <div className=" mt-2" id="Services">
+      <div className=" mt-5 md:mt-2" id="Services">
         <Cards />
       </div>
-      <div className=" mt-2" id="Visa">
+      <div className=" mt-2 md:mt-2" id="Visa">
         <Visa />
       </div>
 
-      <div className=" mt-2" id="Flights">
+      <div className=" mt-2 md:mt-2" id="Flights">
         <Airlines />
       </div>
-      <div className="mt-2" id="Contact">
+      <div className="mt-2 md:mt-2" id="Contact">
         <Contact/>
       </div>
 
-      <div className=" mt-2">
+      <div className=" mt-2 md:mt-2">
         <Partners />
       </div>
 
