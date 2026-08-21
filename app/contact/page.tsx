@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="second flex flex-col">
         <h2 className='text-center text-2xl p-10 font-bold'>Reach us at</h2>
       <div className="flex gap-8 justify-center items-center">
-        <a href="https://wa.me/919876543210" target='_blank' rel="noopener noreferrer" className='flex flex-col justify-center items-center'><FaWhatsapp className="text-green-500 text-3xl" />
+        <a href="https://wa.me/7090983299" target='_blank' rel="noopener noreferrer" className='flex flex-col justify-center items-center'><FaWhatsapp className="text-green-500 text-3xl" />
         <span className='font-bold'>What'sApp</span>
         </a>
         <div className="flex flex-col justify-center items-center">
@@ -25,7 +25,7 @@ const Contact = () => {
             </a>
         </div>
         <div className="flex flex-col justify-center items-center">
-            <a href="tel:+919876543210">
+            <a href="tel:+917090983299">
                 <IoCall className="text-yellow-500 text-3xl" />
             <span className='font-bold'>Phone</span>
             </a>
